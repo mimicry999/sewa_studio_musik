@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <meta name="description" content="Sewa Studio Musik untuk latihan atau rekaman. Dapatkan fasilitas lengkap dan nyaman.">
+    <title>Sewa Studio Musik</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+        .studio img {
+            width: 100%;       
+            max-width: 400px;  
+            height: auto;     
+            margin-bottom: 15px; 
+        }
+
+        .studio {
+            text-align: center; 
+            padding: 20px;
+        }
+
+       
+        .studio h3 {
+            margin-top: 0;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sewa Studio Musik</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#studio">Studio</a></li>
+                    <li><a href="#booking">Pemesanan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Studio Musik Profesional untuk Latihan & Rekaman</h2>
+            <p>Fasilitas lengkap, harga terjangkau, dan lingkungan yang nyaman.</p>
+        </div>
+    </section>
+
+    <section id="studio" class="studio-info">
+        <div class="container">
+            <h2>Studio DMR STMIK</h2>
+            <div class="studio-list">
+                <div class="studio">
+                    <h3>Studio A</h3>
+                    <img src="foto_studio_musik/studio_1.jpg" alt="Studio 1">
+                    <p>Studio dengan peralatan lengkap untuk rekaman dan latihan band.</p>
+                    <p>Rp.50.000/jam.</p>
+                </div>
+                <div class="studio">
+                    <h3>Studio B</h3> 
+                    <img src="foto_studio_musik/studio_2.jpg" alt="Studio 2">
+                    <p>Studio dengan peralatan musik lengkap dan akustik terbaik untuk latihan solo.</p>
+                    <p>Rp.100.000/jam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2>Pemesanan Studio</h2>
+            <form action="#" method="POST">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="studio">Pilih Studio:</label>
+                <select id="studio" name="studio" required>
+                    <option value="studio_a">Studio A</option>
+                    <option value="studio_b">Studio B</option>
+                </select>
+
+                <label for="date">Tanggal Pemesanan:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Waktu Pemesanan:</label>
+                <input type="time" id="time" name="time" required>
+
+                <button type="submit">Pesan Sekarang</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <p>Jika ada pertanyaan atau ingin informasi lebih lanjut, hubungi kami di:</p>
+            <ul>
+                <li>Email: info@sewastudiomusik.com</li>
+                <li>Telepon: +62 81345480930</li>
+                <li>Alamat: Jl. Intansari no. 301 Banjarbaru</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sewa Studio Musik. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
